@@ -1,7 +1,42 @@
-.App {
-  text-align: center;
+:root {
+  --main-color: #10cab7;
+  --secondary-color: #2c4755;
+  --section-background:#f6f6f6
 }
-
+.App {
+  /* text-align: center; */
+  font-family: "Work Sans", sans-serif;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 600px; */
+}
+/* small */
+@media screen and (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium */
+@media screen and (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large */
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
