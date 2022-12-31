@@ -2,7 +2,7 @@ import "./index.css";
 import about from "../../assets/image/about.jpg";
 function About() {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <div className="container">
         <h2 className="special-heading">About</h2>
         <p>Less is more work</p>

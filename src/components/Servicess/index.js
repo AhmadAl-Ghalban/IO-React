@@ -9,7 +9,7 @@ import {
 } from "@fortawesome/fontawesome-svg-core/import.macro";
 function Servicess() {
   return (
-    <div className="servicess">
+    <div className="servicess" id="services">
       <div className="container">
         <h2 className="special-heading">Servicess</h2>
         <p>Don't be busy , be productive</p>

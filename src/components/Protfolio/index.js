@@ -4,7 +4,7 @@ import portfolio2 from "../../assets/image/portfolio-2.jpg";
 import portfolio3 from "../../assets/image/portfolio-3.jpg";
 function Protfolio() {
   return (
-    <div className="protfolio">
+    <div className="protfolio" id="protfolio">
       <div className="container">
         <h2 className="special-heading">Protfolio</h2>
         <p>If you do it right, it will last forever</p>

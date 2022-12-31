@@ -70,7 +70,7 @@
   line-height: 1.5;
   color: #777;
 }
-@media screen and(max-width:767px) {
+@media (max-width:767px) {
   .special-heading {
     font-size: 50px;
   }
@@ -88,7 +88,7 @@
     text-align: center;
   }
 }
-@media screen and(max-width:991px) {
+@media (max-width:991px) {
   .about-content {
     flex-direction: column;
     text-align: center;
